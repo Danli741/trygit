@@ -1,0 +1,5 @@
+$ vi sayH
+echo "your first name please:"
+read fname
+echo "hello $fname, let's be friends!"
+

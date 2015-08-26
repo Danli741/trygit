@@ -1,0 +1,8 @@
+#!/bin/bash
+# to run the python 
+
+for i in {1..100}
+do
+python ../openssl.py 130.83.194.149 -p 8443 >> ../result/r$i.txt
+sleep 180s
+done
